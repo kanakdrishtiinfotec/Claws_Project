@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import CardsDetails from './components/CardsDetails';
 import Cards from './components/Cards';
-import {Routes,Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Product_details from './components/Product_details';
@@ -20,6 +20,8 @@ import Forms from './components/Forms'
 function App() {
   return (
   <>
+  <Router basename='/Claws_Project'>
+
    <Header />
    <Routes>
    <Route path='/' element={<Home />} />
@@ -35,6 +37,7 @@ function App() {
      <Route path='/cart/:id' element={<CardsDetails />} />
    </Routes>
    <Footer />
+  </Router>
 
    
   </>
