@@ -1,7 +1,7 @@
 {
   "name": "addtocart",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://kanakdrishtiinfotec.github.io/Claws_Project",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
