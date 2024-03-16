@@ -100,7 +100,7 @@ const Header = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link to="/Claws_Project" style={{ textDecoration: "none" }}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <Nav className=" text-light mt-2 mx-2">
                   <span className="header_link"> HOME</span>
                 </Nav>

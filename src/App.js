@@ -20,10 +20,9 @@ import Forms from './components/Forms'
 function App() {
   return (
   <>
-
    <Header />
    <Routes>
-   <Route path='https://kanakdrishtiinfotec.github.io/Claws_Project' element={<Home />} />
+   <Route path='/' element={<Home />} />
      <Route path='/product_details' element={<Cards />} />
      <Route path='/about-us' element={<AboutUs />} />
      <Route path='/terms-policies' element={<TermsPolicies />} />
@@ -36,6 +35,8 @@ function App() {
      <Route path='/cart/:id' element={<CardsDetails />} />
    </Routes>
    <Footer />
+
+
    
   </>
   );
