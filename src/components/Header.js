@@ -75,7 +75,7 @@ const Header = () => {
         
       >
         <Container>
-          <Link to="/">
+          <Link to="/Claws_Project">
             {" "}
             <Navbar.Brand>
               <Badge
@@ -100,7 +100,7 @@ const Header = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link to="/Claws_Project" style={{ textDecoration: "none" }}>
                 <Nav className=" text-light mt-2 mx-2">
                   <span className="header_link"> HOME</span>
                 </Nav>
