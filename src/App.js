@@ -20,7 +20,6 @@ import Forms from './components/Forms'
 function App() {
   return (
   <>
-  <Router basename='/Claws_Project'>
 
    <Header />
    <Routes>
@@ -37,8 +36,6 @@ function App() {
      <Route path='/cart/:id' element={<CardsDetails />} />
    </Routes>
    <Footer />
-  </Router>
-
    
   </>
   );
