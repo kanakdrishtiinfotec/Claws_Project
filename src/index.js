@@ -8,7 +8,7 @@ import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
   <Provider store={store}>
-  <HashRouter  basename='/Claws_Project'>
+  <HashRouter  basename='https://kanakdrishtiinfotec.github.io/Claws_Project'>
     <React.StrictMode>
       <App />
     </React.StrictMode>

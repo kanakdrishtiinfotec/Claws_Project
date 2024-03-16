@@ -23,7 +23,7 @@ function App() {
 
    <Header />
    <Routes>
-   <Route path='/Claws_Project' element={<Home />} />
+   <Route path='https://kanakdrishtiinfotec.github.io/Claws_Project' element={<Home />} />
      <Route path='/product_details' element={<Cards />} />
      <Route path='/about-us' element={<AboutUs />} />
      <Route path='/terms-policies' element={<TermsPolicies />} />
